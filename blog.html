@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="AgenciaMarketingDigital, MarketingDigital, BlogMarketingDigital">
-    <meta name="description" content="Bienvenido a Mincca, una agencia especializada en Marketing Digital, con soluciones para tu emprendimiento o negocio.">
+    <meta name="keywords" content="BlogMarketingDigital, NoticiasMarketing">
+    <meta name="description" content="Desde donde estés y cuando quieras, lee nuestras notas del mundo del marketing">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
-    <title>Bienvenido a Mincca</title>
+    <title>Blog de Marketing Digital</title>
   </head>
-  <body>
-    <div id="siteHeader" class="container-fluid px-0 bgColor">  
+<body>
+	<div id="siteHeader" class="container-fluid px-0 bgColor">  
         <div class="container"><!--contenedor menu navegacion-->
             <nav class="navbar navbar-expand-lg navbar-dark bgColor">
                 <a href="index.html" class="header__logo"> <img src="../Mincca/media/logo/mincca_logo.jpg" alt="Mincca"></a>
@@ -23,7 +23,7 @@
                
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                   <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="servicios.html">Servicios</a>
@@ -32,7 +32,7 @@
                     <a class="nav-link" href="news.html">News</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="blog.html">Blog</a>
+                    <a class="nav-link" href="blog.html">Blog<span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="contacto.html">Contacto</a>
@@ -46,7 +46,8 @@
             </nav>
         </div>
     </div> <!--end header-->
-   <!--Inicia Carrusel--> 
+
+		<!--Inicia Carrusel--> 
    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -55,21 +56,21 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="../mincca/media/home/carrusel_menu.png" class="d-block w-100" alt="Bienvenido a Mincca">
+          <img src="../mincca/media/blog/blog_principal_uno.png" class="d-block w-100" alt="Blog Mincca">
           <div class="carousel-caption  d-md-block">
-            <h5 class="shadow">Título principal</h5>
-            <p class="shadow">Lorem ipsum dolor sit, ag elit. Ab ipsum, cumque.</p>
+            <h5>Título principal</h5>
+            <p>Lorem ipsum dolor sit, ag elit. Ab ipsum, cumque.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="../mincca/media/home/principal_news.png" class="d-block w-100" alt="Bienvenido a Mincca">
+          <img src="../mincca/media/blog/blog_principal_dos.png" class="d-block w-100" alt="Blog Mincca">
           <div class="carousel-caption  d-md-block">
             <h5>Título principal</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="../mincca/media/home/principal_servicios.png" class="d-block w-100" alt="Bienvenido a Mincca">
+          <img src="../mincca/media/blog/blog_principal_tres.png" class="d-block w-100" alt="Blog Mincca">
           <div class="carousel-caption  d-md-block">
             <h5>Título principal</h5>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -87,29 +88,40 @@
     </div>
     <!--cierre carrusel-->
 
+	<div><h2 class="subtituloNewsDos text-center">Buscar por tema</h2></div>
+	<div><!--Contenedor primera parte-->			
+		<div class="temasBlog align-items-center ">
+			<button type="button" class="btn btn-lg btn-primary" disabled>Marketing</button>
+			<button type="button" class="btn btn-lg btn-primary" disabled>Pubicidad</button>
+			<button type="button" class="btn btn-lg btn-primary" disabled>Programación</button>
+			<button type="button" class="btn btn-lg btn-primary" disabled>Redes Sociales</button>
+		</div>
+	</div>
 
-    <div id="siteBox" class="py-5"><!--seccion 4 box-->
+	<div><h2 class="subtituloNewsDos text-center">Lo más reciente</h2></div>
+
+		<div id="siteBox" class="py-5"><!--seccion 4 box-->
         <div class="container row principal__noticias">
             <div class="col-12 col-md-6 col-lg-3 mb-md-4 box--propiedades text-center">
-                <img src="../Mincca/media/home/img_uno.png" alt="Nota Lorem" class="d-block mx-auto noticias__img">
+                <img src="../Mincca/media/blog/blog_uno.png" alt="Blog Mincca" class="d-block mx-auto noticias__img">
                 <h4 class="mt-2">Título principal</h4>
                 <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab ipsum, cumque</p>
                 <button type="button" class="btn btn-danger">Botón</button>
             </div>
             <div class="col-12 col-md-6 col-lg-3 mb-md-4 box--propiedades text-center">
-                <img src="../Mincca/media/home/img_dos.png" alt="Nota Lorem" class="d-block mx-auto noticias__img">
+                <img src="../Mincca/media/blog/blog_dos.png" alt="Blog Mincca" class="d-block mx-auto noticias__img">
                 <h4 class="mt-2">Título principal</h4>
                 <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab ipsum, cumque</p>
                 <button type="button" class="btn btn-danger">Botón</button>
             </div>
             <div class="col-12 col-md-6 col-lg-3 mb-md4 box--propiedades text-center">
-                <img src="../Mincca/media/home/img_tres.png" alt="Nota Lorem" class="d-block mx-auto noticias__img">
+                <img src="../Mincca/media/blog/blog_tres.png" alt="Blog Mincca" class="d-block mx-auto noticias__img">
                 <h4 class="mt-2">Título principal</h4>
                 <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab ipsum, cumque</p>
                 <button type="button" class="btn btn-danger">Botón</button>
             </div>
             <div class="col-12 col-md-6 col-lg-3 mb-md-4  box--propiedades text-center">
-                <img src="../Mincca/media/home/img_cuatro.png" alt="Nota Lorem" class="d-block mx-auto noticias__img">
+                <img src="../Mincca/media/blog/blog_cuatro.png" alt="Blog Mincca" class="d-block mx-auto noticias__img">
                 <h4 class="mt-2">Título principal</h4>
                 <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab ipsum, cumque</p>
                 <button type="button" class="btn btn-danger">Botón</button>
@@ -117,21 +129,28 @@
         </div>
     </div><!--cierre seccion 4 boxs-->
 
-    <div id="siteSemiFinal" class="d-flex"><!--seccion semi final-->
-        <div class="container row mx-auto py-5 wow animate__animated animate__fadeIn">
-            <div class="col-lg-8 col-md-6 col-sm-12 align-items-center">
-                <img src="../Mincca/media/home/img_cinco.png" alt="Nota Lorem">
-            </div>
-            <div class=" col-lg-4 col-md-4 col-sm-12 align-items-center py-5 text-center">
-                <h4 class="mt-2 ">Título principal</h4>
-                <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab ipsum, cumque</p>
-                <button type="button" class="btn btn-danger">Botón</button>
-            </div>
-        </div>
-        
-    </div>
+		<div class="semiFinalIndex wow animate__animated animate__fadeIn"><!--Contenedor anterior al footer-->
+			<div class="box2">
+				<img src="../Mincca/media/blog/blog_cinco.png" alt="Tu búsqueda en Mincca">
+			</div>
+		</div>
 
-    <div id="siteFooter" class="bgColor py-3">
+		<div class="box3 text-center">
+			<h2 class="subtituloNewsDos">¿No encontrás lo que buscás?</h2>
+			<div>
+				<form class="form-inline my-2 my-lg-0">
+              		<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+               		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+           			</form>
+			</div>
+		</div>	
+		
+
+
+		<a href="index.html">Volver al inicio</a>
+		<div> Flecha de ir hacia arriba </div>
+		<div> Botón con acceso directo a WhatsApp </div>
+		<div id="siteFooter" class="bgColor py-3">
         <div class="container row mx-auto">
             <div class="col-12 col-md-6 col-lg-3 mb-2 mb-md-0">
                 <div class="footer__div">Título</div>
@@ -160,18 +179,15 @@
                     <li>Texto</li>
                     <li>Sub Texto</li>
                 </ul>    
-            </div>      
+            </div>
         </div>
         
     </div>
-
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src = "js / wow.min.js"> </script>
     <script>
         nuevo WOW (). init ();
     </script>
-  </body>
+</body>
 </html>

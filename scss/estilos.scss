@@ -1,0 +1,195 @@
+@import "variables";
+
+@mixin colorBlanco{
+  color: #F2F2F2;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #F2F2F2;
+  font-family: $font-family;
+}
+
+@each $k, $v in $mapa{
+  .font-#{$k}{
+    font-family: $font-family;
+    font-weight: $v;
+  }
+}
+
+
+.bgColor{
+  background-color: $color-header;
+}
+
+.header__logo img{
+  max-width: 50px;
+}
+
+.carousel-caption h3{
+  font-size: 700;
+  font-weight: bold;
+}
+
+.carousel-caption p{
+  font-size: 400;
+  font-weight: regular;
+}
+
+#siteBox h4{
+  font-size: 300;
+  font-weight: bold;
+}
+
+.principal__noticias{
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+.noticias__img{
+  max-width: 100%;
+  -webkit-border-radius: 10px 10px;
+  border-radius: 10px 10px;
+}
+
+.box--propiedades{
+  margin-bottom: 4px;
+}
+
+.box--propiedades:hover{
+  transform: scale(1.1);
+}
+
+#siteFooter div{
+  color: #F2F2F2;
+}
+
+.footer__div{
+  font-weight:  bold;
+}
+
+#siteSemiFinal img{
+  max-width: 100%;
+  margin-left: 0px;
+  margin-right: 60px;
+  -webkit-border-radius: 10px 10px;
+  border-radius: 10px 10px; 
+}
+
+.subtituloNews{
+  font-family: $font-family;
+  justify-content: center;
+  padding-top: 0px;
+  color: $main-color;
+}
+
+.subtituloNewsDos{
+  @extend .subtituloNews;
+  padding-top: 40px;
+}
+
+.flecha img{
+  max-width: 80px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding: 12px;
+  /*margin: 50px;*/
+  -webkit-border-radius: 100px 100px 100px 100px;
+  border-radius: 100px 100px 100px 100px;
+  @if $gradiente-flecha{
+    background: $gradiente;
+  }@else{
+    background: $main-color;
+  }
+}
+
+.flecha img:hover{
+  transform: scale(1.01);
+}
+
+/*.temasBlog{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;  
+}
+*/
+
+
+.temasBlog button{
+  background: $gradiente-celeste;
+  -webkit-border-radius: 10px 10px;
+  border-radius: 10px 10px; 
+
+}
+
+.temasBlog h1{
+  font-weight: 400;
+  font-size: 20px;
+  color: #F2F2F2;
+  text-align: center;
+}
+
+/*.semiFinalIndex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}*/
+
+
+.box2 img{
+  width: 100%;
+}
+
+.especialH6{
+  font-family: $font-family;
+  font-size: 300;
+  color: #02090D;
+  text-align: center;
+  padding: 10px;
+}
+
+
+.box1Form{
+  @include colorBlanco;
+  background-color: #2B7B8C;
+  padding: 20px;
+  padding: 30px;
+  text-align: center;
+}
+
+.box2Form{
+  background-color: #F2F2F2;
+  color: #2B7B8C;
+  padding: 20px;
+  
+}
+
+.background-special{
+  background-color: #2B7B8C;
+}
+
+.text-special{
+  @include colorBlanco;
+}
+
+.shadow{
+  text-shadow: 0 0 30px #000000;
+}
+
+@each $v in $valores{
+  .icono-#{$v}{
+    background: url("../Mincca/media/home/#{$v}.png");
+    max-width: 500px;
+  }
+}
+
+
+/*# sourceMappingURL=estilos.css.map */
