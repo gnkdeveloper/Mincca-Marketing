@@ -186,7 +186,7 @@ body{
 
 @each $v in $valores{
   .icono-#{$v}{
-    background: url("../Mincca/media/home/#{$v}.png");
+    background: url("../media/home/#{$v}.png");
     max-width: 500px;
   }
 }
