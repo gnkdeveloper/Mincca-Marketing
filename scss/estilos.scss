@@ -10,7 +10,7 @@
 }
 
 body{
-  background-color: #F2F2F2;
+  background-color: $main-color;
   font-family: $font-family;
 }
 
@@ -30,7 +30,39 @@ body{
   max-width: 50px;
 }
 
-.carousel-caption h3{
+#siteBanner{
+  background-image: url("../media/home/carrusel_menu.jpg");
+  background-size: cover;
+  background-position: 50%;
+  min-height: 600px;
+  height: 50vh;
+  position: relative;
+}
+
+#siteBanner span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(135deg, rgba(206,49,52,1) 0%,rgba(174,45,75,1) 25%,rgba(120,39,113,0.7) 68%,rgba(79,34,142,0) 100%);
+  background-position: 50%;
+  opacity: .5;
+}
+
+#siteBanner h3{
+  font-size:180px;
+  font-family: $font-family;
+}
+
+#siteBanner p{
+  font-size: 30px;
+  font-family: $font-family;
+}
+
+
+
+/*.carousel-caption h3{
   font-size: 700;
   font-weight: bold;
 }
@@ -38,12 +70,22 @@ body{
 .carousel-caption p{
   font-size: 400;
   font-weight: regular;
-}
+}*/
 
 #siteBox h4{
   font-size: 300;
   font-weight: bold;
 }
+
+.box{
+  -webkit-box-shadow: 2px 2px 30px 1px black;
+  box-shadow: 2px 2px 30px 1px black;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: $main-color;
+}
+
+
 
 .principal__noticias{
   margin-left:  auto;
@@ -64,21 +106,57 @@ body{
   transform: scale(1.1);
 }
 
-#siteFooter div{
-  color: #F2F2F2;
+#siteSemiFinal{
+  background-image: url("../media/home/img_cinco.jpg");
+  background-size: cover;
+  background-position: 50%;
+  min-height: 600px;
+  height: 50vh;
+  position: relative;
 }
+
+#siteSemiFinal span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(135deg, rgba(206,49,52,1) 0%,rgba(174,45,75,1) 25%,rgba(120,39,113,0.7) 68%,rgba(79,34,142,0) 100%);
+  background-position: 50%;
+  opacity: .5;
+}
+
+#siteSemiFinal h3{
+  font-size:100px;
+  font-family: $font-family;
+}
+
+#siteSemiFinal p{
+  font-size: 30px;
+  font-family: $font-family;
+}
+
+
+
+#siteFooter{
+  background-color: black;
+  div{
+    color: #F2F2F2;
+  }
+}
+
 
 .footer__div{
   font-weight:  bold;
 }
 
-#siteSemiFinal img{
+/*#siteSemiFinal img{
   max-width: 100%;
   margin-left: 0px;
   margin-right: 60px;
   -webkit-border-radius: 10px 10px;
   border-radius: 10px 10px; 
-}
+}*/
 
 .subtituloNews{
   font-family: $font-family;
