@@ -404,4 +404,34 @@ body{
   margin-top:13px;
 }
 
+#siteBannerHomeUno{
+  background-image: url("../media/homepages/carrusel_homepages_uno.jpg");
+  background-size: cover;
+  background-position: 50%;
+  min-height: 600px;
+  height: 50vh;
+  position: relative;
+}
+
+#siteBannerHomeUno span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(135deg, rgba(206,49,52,1) 0%,rgba(174,45,75,1) 25%,rgba(120,39,113,0.7) 68%,rgba(79,34,142,0) 100%);
+  background-position: 50%;
+  opacity: .8;
+}
+
+#siteBannerHomeUno h3{
+  font-size:300%;
+  font-family: $font-family;  
+}
+
+#siteBannerHomeUno p{
+  font-size: 30px;
+  font-family: $font-family;
+}
+
 /*# sourceMappingURL=estilos.css.map */
