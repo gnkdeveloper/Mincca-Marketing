@@ -1,10 +1,8 @@
 $color-header: #BD2C3B;
 $main-color: #BD2C3B;
 
-$gradiente: linear-gradient(to right,  #BD2C3B 0%,#E54457 100%);
-$gradiente-celeste: linear-gradient(to right, #2B7B8C 4%,#5AB5AF 66%,#5AB5AF 100%,#28343b 100%);
-$gradiente-flecha: true;
-$valores: instagram, facebook;
+$gradiente-principal: linear-gradient(135deg, #ce3134 0%, #ae2d4b 25%, rgba(120, 39, 113, 0.7) 68%, rgba(79, 34, 142, 0) 100%);
+
 $font-family: 'Sora', sans-serif;
 $mapa: (
 	"light": 300,

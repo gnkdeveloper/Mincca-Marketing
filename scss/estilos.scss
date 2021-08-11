@@ -4,6 +4,30 @@
   color: #F2F2F2;
 }
 
+@mixin bannerPrincipalSecciones{
+  background-size: cover;
+  background-position: 50%;
+  min-height: 600px;
+  height: 50vh;
+  position: relative;
+  span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: $gradiente-principal;
+    background-position: 50%;
+    opacity: .8;
+  }h3{
+    font-size: 300%;
+    font-family: $font-family;
+  }p{
+    font-size: 30px;
+    font-family: $font-family;
+  }
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -35,147 +59,27 @@ body{
 
 #siteBanner{
   background-image: url("../media/home/carrusel_menu.jpg");
-  background-size: cover;
-  background-position: 50%;
-  min-height: 600px;
-  height: 50vh;
-  position: relative;
-}
-
-#siteBanner span{
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(135deg, rgba(206,49,52,1) 0%,rgba(174,45,75,1) 25%,rgba(120,39,113,0.7) 68%,rgba(79,34,142,0) 100%);
-  background-position: 50%;
-  opacity: .5;
-}
-
-#siteBanner h3{
-  font-size:300%;
-  font-family: $font-family;  
-}
-
-#siteBanner p{
-  font-size: 30px;
-  font-family: $font-family;
+  @include bannerPrincipalSecciones;
 }
 
 #siteBannerServicios{
   background-image: url("../media/servicios/servicios_principal_dos.png");
-  background-size: cover;
-  background-position: 50%;
-  min-height: 600px;
-  height: 50vh;
-  position: relative;
-}
-
-#siteBannerServicios span{
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(135deg, rgba(206,49,52,1) 0%,rgba(174,45,75,1) 25%,rgba(120,39,113,0.7) 68%,rgba(79,34,142,0) 100%);
-  background-position: 50%;
-  opacity: .5;
-}
-
-#siteBannerServicios h3{
-  font-size:300%;
-  font-family: $font-family;
-}
-
-#siteBannerServicios p{
-  font-size:30px;
-  font-family: $font-family;
+  @include bannerPrincipalSecciones;
 }
 
 #siteBannerBlog{
   background-image: url("../media/blog/blog_principal_uno.jpg");
-  background-size: cover;
-  background-position: 50%;
-  min-height: 600px;
-  height: 50vh;
-  position: relative;
-}
-
-#siteBannerBlog span{
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(135deg, rgba(206,49,52,1) 0%,rgba(174,45,75,1) 25%,rgba(120,39,113,0.7) 68%,rgba(79,34,142,0) 100%);
-  background-position: 50%;
-  opacity: .5;
-}
-
-#siteBannerBlog h3{
-  font-size:300%;
-  font-family: $font-family;
+  @include bannerPrincipalSecciones;
 }
 
 #siteBannerNews{
   background-image: url("../media/news/news_principal_uno.png");
-  background-size: cover;
-  background-position: 50%;
-  min-height: 600px;
-  height: 50vh;
-  position: relative;
-}
-
-#siteBannerNews span{
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(135deg, rgba(206,49,52,1) 0%,rgba(174,45,75,1) 25%,rgba(120,39,113,0.7) 68%,rgba(79,34,142,0) 100%);
-  background-position: 50%;
-  opacity: .5;
-}
-
-#siteBannerNews h3{
-  font-size:300%;
-  font-family: $font-family;
-}
-
-#siteBannerNews p{
-  font-size: 30px;
-  font-family: $font-family;
+  @include bannerPrincipalSecciones;
 }
 
 #siteBannerContacto{
   background-image: url("../media/contacto/contacto_principal_uno.png");
-  background-size: cover;
-  background-position: 50%;
-  min-height: 600px;
-  height: 50vh;
-  position: relative;
-}
-
-#siteBannerContacto span{
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(135deg, rgba(206,49,52,1) 0%,rgba(174,45,75,1) 25%,rgba(120,39,113,0.7) 68%,rgba(79,34,142,0) 100%);
-  background-position: 50%;
-  opacity: .5;
-}
-
-#siteBannerContacto h3{
-  font-size:300%;
-  font-family: $font-family;
-}
-
-#siteBannerContacto p{
-  font-size: 30px;
-  font-family: $font-family;
+  @include bannerPrincipalSecciones;
 }
 
 #siteBox h4{
@@ -212,92 +116,17 @@ body{
 
 #siteSemiFinal{
   background-image: url("../media/home/img_cinco.jpg");
-  background-size: cover;
-  background-position: 50%;
-  min-height: 600px;
-  height: 50vh;
-  position: relative;
-}
-
-#siteSemiFinal span{
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(135deg, rgba(206,49,52,1) 0%,rgba(174,45,75,1) 25%,rgba(120,39,113,0.7) 68%,rgba(79,34,142,0) 100%);
-  background-position: 50%;
-  opacity: .5;
-}
-
-#siteSemiFinal h3{
-  font-size:300%;
-  font-family: $font-family;
-}
-
-#siteSemiFinal p{
-  font-size: 30px;
-  font-family: $font-family;
+  @include bannerPrincipalSecciones;
 }
 
 #siteSemiFinalServicios{
   background-image: url("../media/servicios/servicios_img_cinco.jpg");
-  background-size: cover;
-  background-position: 50%;
-  min-height: 600px;
-  height: 50vh;
-  position: relative;
-}
-
-#siteSemiFinalServicios span{
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(135deg, rgba(206,49,52,1) 0%,rgba(174,45,75,1) 25%,rgba(120,39,113,0.7) 68%,rgba(79,34,142,0) 100%);
-  background-position: 50%;
-  opacity: .5;
-}
-
-#siteSemiFinalServicios h3{
-  ffont-size:300%;
-  font-family: $font-family;
-}
-
-#siteSemiFinalServicios p{
-  font-size: 30px;
-  font-family: $font-family;
+  @include bannerPrincipalSecciones;
 }
 
 #siteSemiFinalBlog{
   background-image: url("../media/blog/blog_cinco.png");
-  background-size: cover;
-  background-position: 50%;
-  min-height: 600px;
-  height: 50vh;
-  position: relative;
-}
-
-#siteSemiFinalBlog span{
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(135deg, rgba(206,49,52,1) 0%,rgba(174,45,75,1) 25%,rgba(120,39,113,0.7) 68%,rgba(79,34,142,0) 100%);
-  background-position: 50%;
-  opacity: .5;
-}
-
-#siteSemiFinalBlog h3{
-  font-size:300%;
-  font-family: $font-family;
-}
-
-#siteSemiFinalBlog p{
-  font-size: 30px;
-  font-family: $font-family;
+  @include bannerPrincipalSecciones;
 }
 
 #siteFooter{
@@ -324,25 +153,6 @@ body{
   color: white;
 }
 
-.flecha img{
-  max-width: 80px;
-  margin-top: 50px;
-  margin-bottom: 10px;
-  padding: 12px;
-  /*margin: 50px;*/
-  -webkit-border-radius: 100px 100px 100px 100px;
-  border-radius: 100px 100px 100px 100px;
-  @if $gradiente-flecha{
-    background: $gradiente;
-  }@else{
-    background: $main-color;
-  }
-}
-
-.flecha img:hover{
-  transform: scale(1.01);
-}
-
 .temasBlog{
   text-align: center;
 }
@@ -358,7 +168,6 @@ body{
   text-align: center;
   padding: 10px;
 }
-
 
 .box1Form{
   @include colorBlanco;
@@ -406,32 +215,79 @@ body{
 
 #siteBannerHomeUno{
   background-image: url("../media/homepages/carrusel_homepages_uno.jpg");
-  background-size: cover;
-  background-position: 50%;
-  min-height: 600px;
-  height: 50vh;
-  position: relative;
+  @include bannerPrincipalSecciones;
 }
 
-#siteBannerHomeUno span{
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(135deg, rgba(206,49,52,1) 0%,rgba(174,45,75,1) 25%,rgba(120,39,113,0.7) 68%,rgba(79,34,142,0) 100%);
-  background-position: 50%;
-  opacity: .8;
+.textSection{
+  margin: 20px;
 }
 
-#siteBannerHomeUno h3{
-  font-size:300%;
-  font-family: $font-family;  
+#siteBannerHomeDos{
+  background-image: url("../media/homepages/carrusel_homepages_dos.jpg");
+  @include bannerPrincipalSecciones;
 }
 
-#siteBannerHomeUno p{
-  font-size: 30px;
-  font-family: $font-family;
+#siteBannerHomeTres{
+  background-image: url("../media/homepages/carrusel_homepages_tres.jpg");
+  @include bannerPrincipalSecciones;
 }
 
-/*# sourceMappingURL=estilos.css.map */
+#siteBannerServiciosUno{
+  background-image: url("../media/serviciospages/carrusel_serviciospages_uno.jpg");
+  @include bannerPrincipalSecciones;
+}
+
+#siteBannerServiciosDos {
+  background-image: url("../media/serviciospages/carrusel_serviciospages_dos.jpg");
+  @include bannerPrincipalSecciones;
+}
+
+#siteBannerServiciosTres {
+  background-image: url("../media/serviciospages/carrusel_serviciospages_tres.jpg");
+  @include bannerPrincipalSecciones;
+}
+
+#siteBannerServiciosCuatro {
+  background-image: url("../media/serviciospages/carrusel_serviciospages_cuatro.jpg");
+  @include bannerPrincipalSecciones;
+}
+
+#siteBannerBlogUno {
+  background-image: url("../media/blogpages/carrusel_blogpages_uno.jpg");
+  @include bannerPrincipalSecciones;
+}
+
+#siteBannerBlogDos {
+  background-image: url("../media/blogpages/carrusel_blogpages_dos.jpg");
+  @include bannerPrincipalSecciones;
+}
+
+#siteBannerBlogTres {
+  background-image: url("../media/blogpages/carrusel_blogpages_tres.jpg");
+  @include bannerPrincipalSecciones;
+}
+
+#siteBannerBlogCuatro {
+  background-image: url("../media/blogpages/carrusel_blogpages_cuatro.jpg");
+  @include bannerPrincipalSecciones;
+}
+
+#siteBannerNewsUno {
+  background-image: url("../media/newspages/carrusel_newspages_uno.jpg");
+  @include bannerPrincipalSecciones;
+}
+
+#siteBannerNewsDos {
+  background-image: url("../media/newspages/carrusel_newspages_dos.jpg");
+  @include bannerPrincipalSecciones;
+}
+
+#siteBannerNewsTres {
+  background-image: url("../media/newspages/carrusel_newspages_tres.jpg");
+  @include bannerPrincipalSecciones;
+}
+
+#siteBannerNewsCuatro {
+  background-image: url("../media/newspages/carrusel_newspages_cuatro.jpg");
+  @include bannerPrincipalSecciones;
+}
