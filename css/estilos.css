@@ -35,6 +35,12 @@ body {
   color: white;
 }
 
+.btn-primary {
+  color: white;
+  background-color: grey;
+  border: grey;
+}
+
 #siteBanner {
   background-image: url("../media/home/carrusel_menu.jpg");
   background-size: cover;
@@ -58,11 +64,13 @@ body {
 #siteBanner h3 {
   font-size: 300%;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBanner p {
   font-size: 30px;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerServicios {
@@ -88,11 +96,13 @@ body {
 #siteBannerServicios h3 {
   font-size: 300%;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerServicios p {
   font-size: 30px;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerBlog {
@@ -118,11 +128,13 @@ body {
 #siteBannerBlog h3 {
   font-size: 300%;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerBlog p {
   font-size: 30px;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerNews {
@@ -148,11 +160,13 @@ body {
 #siteBannerNews h3 {
   font-size: 300%;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerNews p {
   font-size: 30px;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerContacto {
@@ -178,11 +192,13 @@ body {
 #siteBannerContacto h3 {
   font-size: 300%;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerContacto p {
   font-size: 30px;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBox h4 {
@@ -239,11 +255,13 @@ body {
 #siteSemiFinal h3 {
   font-size: 300%;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteSemiFinal p {
   font-size: 30px;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteSemiFinalServicios {
@@ -269,11 +287,13 @@ body {
 #siteSemiFinalServicios h3 {
   font-size: 300%;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteSemiFinalServicios p {
   font-size: 30px;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteSemiFinalBlog {
@@ -299,11 +319,13 @@ body {
 #siteSemiFinalBlog h3 {
   font-size: 300%;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteSemiFinalBlog p {
   font-size: 30px;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteFooter {
@@ -332,10 +354,6 @@ body {
   color: white;
 }
 
-.temasBlog {
-  text-align: center;
-}
-
 .box2 img {
   width: 100%;
 }
@@ -348,18 +366,8 @@ body {
   padding: 10px;
 }
 
-.box1Form {
-  color: #F2F2F2;
-  background-color: #2B7B8C;
-  padding: 20px;
-  padding: 30px;
-  text-align: center;
-}
-
-.box2Form {
-  background-color: #F2F2F2;
-  color: #2B7B8C;
-  padding: 20px;
+.containerForm {
+  color: white;
 }
 
 .background-special {
@@ -390,6 +398,7 @@ body {
 
 .whatsapp-icon {
   margin-top: 13px;
+  font-weight: lighter;
 }
 
 #siteBannerHomeUno {
@@ -415,15 +424,13 @@ body {
 #siteBannerHomeUno h3 {
   font-size: 300%;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerHomeUno p {
   font-size: 30px;
   font-family: "Sora", sans-serif;
-}
-
-.textSection {
-  margin: 20px;
+  margin-left: 20px;
 }
 
 #siteBannerHomeDos {
@@ -449,11 +456,13 @@ body {
 #siteBannerHomeDos h3 {
   font-size: 300%;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerHomeDos p {
   font-size: 30px;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerHomeTres {
@@ -479,11 +488,13 @@ body {
 #siteBannerHomeTres h3 {
   font-size: 300%;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerHomeTres p {
   font-size: 30px;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerServiciosUno {
@@ -509,11 +520,13 @@ body {
 #siteBannerServiciosUno h3 {
   font-size: 300%;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerServiciosUno p {
   font-size: 30px;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerServiciosDos {
@@ -539,11 +552,13 @@ body {
 #siteBannerServiciosDos h3 {
   font-size: 300%;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerServiciosDos p {
   font-size: 30px;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerServiciosTres {
@@ -569,11 +584,13 @@ body {
 #siteBannerServiciosTres h3 {
   font-size: 300%;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerServiciosTres p {
   font-size: 30px;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerServiciosCuatro {
@@ -599,11 +616,13 @@ body {
 #siteBannerServiciosCuatro h3 {
   font-size: 300%;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerServiciosCuatro p {
   font-size: 30px;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerBlogUno {
@@ -629,11 +648,13 @@ body {
 #siteBannerBlogUno h3 {
   font-size: 300%;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerBlogUno p {
   font-size: 30px;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerBlogDos {
@@ -659,11 +680,13 @@ body {
 #siteBannerBlogDos h3 {
   font-size: 300%;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerBlogDos p {
   font-size: 30px;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerBlogTres {
@@ -689,11 +712,13 @@ body {
 #siteBannerBlogTres h3 {
   font-size: 300%;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerBlogTres p {
   font-size: 30px;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerBlogCuatro {
@@ -719,11 +744,13 @@ body {
 #siteBannerBlogCuatro h3 {
   font-size: 300%;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerBlogCuatro p {
   font-size: 30px;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerNewsUno {
@@ -749,11 +776,13 @@ body {
 #siteBannerNewsUno h3 {
   font-size: 300%;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerNewsUno p {
   font-size: 30px;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerNewsDos {
@@ -779,11 +808,13 @@ body {
 #siteBannerNewsDos h3 {
   font-size: 300%;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerNewsDos p {
   font-size: 30px;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerNewsTres {
@@ -809,11 +840,13 @@ body {
 #siteBannerNewsTres h3 {
   font-size: 300%;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerNewsTres p {
   font-size: 30px;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerNewsCuatro {
@@ -839,10 +872,12 @@ body {
 #siteBannerNewsCuatro h3 {
   font-size: 300%;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 
 #siteBannerNewsCuatro p {
   font-size: 30px;
   font-family: "Sora", sans-serif;
+  margin-left: 20px;
 }
 /*# sourceMappingURL=estilos.css.map */

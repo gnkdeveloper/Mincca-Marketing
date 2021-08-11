@@ -22,9 +22,11 @@
   }h3{
     font-size: 300%;
     font-family: $font-family;
+    margin-left: 20px;    
   }p{
     font-size: 30px;
     font-family: $font-family;
+    margin-left: 20px;
   }
 }
 
@@ -55,6 +57,12 @@ body{
 
 .btn{
   color: white;
+}
+
+.btn-primary{
+  color: white;
+  background-color: grey;
+  border: grey;
 }
 
 #siteBanner{
@@ -153,10 +161,6 @@ body{
   color: white;
 }
 
-.temasBlog{
-  text-align: center;
-}
-
 .box2 img{
   width: 100%;
 }
@@ -169,18 +173,8 @@ body{
   padding: 10px;
 }
 
-.box1Form{
-  @include colorBlanco;
-  background-color: #2B7B8C;
-  padding: 20px;
-  padding: 30px;
-  text-align: center;
-}
-
-.box2Form{
-  background-color: #F2F2F2;
-  color: #2B7B8C;
-  padding: 20px;  
+.containerForm{
+  color: white;
 }
 
 .background-special{
@@ -211,15 +205,12 @@ body{
 
 .whatsapp-icon {
   margin-top:13px;
+  font-weight: lighter;
 }
 
 #siteBannerHomeUno{
   background-image: url("../media/homepages/carrusel_homepages_uno.jpg");
   @include bannerPrincipalSecciones;
-}
-
-.textSection{
-  margin: 20px;
 }
 
 #siteBannerHomeDos{
